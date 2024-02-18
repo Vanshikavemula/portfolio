@@ -95,11 +95,11 @@ section .title::after {
 /*  Home  */
 .home {
   display: flex;
-  background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
+  background: url("/WhatsApp\ Image\ 2024-02-18\ at\ 19.43.48_f70dae21.jpg")
     center;
   height: 100vh;
-  color: #fff;
   min-height: 500px;
+  color: white;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
@@ -524,7 +524,18 @@ footer span a:hover {
 }
 
 /*  Media Query  */
-/* Media Query */
+
+@media (max-width: 768px) {
+ 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+ 
+}
+
+@media (min-width: 1025px) {
+}
+/*  Media Query  */
 @keyframes pulsate {
   0% {
     box-shadow: 0 0 25px #888e8d, 0 0 50px #1e3551;
@@ -590,8 +601,6 @@ footer span a:hover {
   }
   .max-width {
     max-width: 930px;
-    padding: 0 15px; 
-    margin: 0 auto; 
   }
   .about .about-content .column {
     width: 100%;
@@ -617,7 +626,7 @@ footer span a:hover {
 
 @media (max-width: 690px) {
   .max-width {
-    padding: 0 15px;
+    padding: 0 23px;
   }
   .home .home-content .text-2 {
     font-size: 60px;

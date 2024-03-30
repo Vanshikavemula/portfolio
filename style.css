@@ -244,17 +244,21 @@ section .title::after {
   background: radial-gradient(#6aa3e9, rgb(253, 253, 253));
   width: 100%;
   display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   height: 100vh; 
 }
 
-.projects .title::after {
-  content: "What I did?";
+.title {
+  margin-top: 20px; 
+  font-size: 24px;
+}
+
+.proj-container {
   display: flex;
-  font-size: 19px;
-  color: #333; 
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 20px;
 }
 
 .projects .proj {

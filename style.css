@@ -240,7 +240,6 @@ section .title::after {
   }
 
 /*  Projects  */
-/* Add font-family and button styles */
 .projects {
   background: radial-gradient(#6aa3e9, rgb(253, 253, 253));
   width: 100%;
@@ -253,6 +252,11 @@ section .title::after {
 .title {
   margin-top: 20px;
   font-size: 24px;
+}
+
+
+.projects .title::after {
+  content: "What I Made?";
 }
 
 .proj-container {
@@ -270,7 +274,7 @@ section .title::after {
   border: 10px solid #333;
   padding: 20px;
   transition: all 0.3s ease;
-  position: relative; /* Add position: relative for absolute positioning of links */
+  position: relative; 
 }
 
 .projects .proj:hover {
